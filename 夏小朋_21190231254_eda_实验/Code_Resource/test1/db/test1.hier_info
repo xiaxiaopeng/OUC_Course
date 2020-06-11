@@ -1,0 +1,8 @@
+|test1
+a => e.IN0
+b => e.IN1
+c => e.IN1
+d => e.IN1
+e << e.DB_MAX_OUTPUT_PORT_TYPE
+
+

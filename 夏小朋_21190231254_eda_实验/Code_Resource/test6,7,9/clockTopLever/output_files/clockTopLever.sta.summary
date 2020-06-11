@@ -1,0 +1,425 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'DIV_FREQUENCE:u1|clk_ms'
+Slack : -4.136
+TNS   : -57.799
+
+Type  : Slow 1200mV 85C Model Setup 'COUNTER_MID[2]'
+Slack : -4.080
+TNS   : -13.542
+
+Type  : Slow 1200mV 85C Model Setup 'KEY_DELAY:u5|KEY_OUT'
+Slack : -3.916
+TNS   : -47.826
+
+Type  : Slow 1200mV 85C Model Setup 'clk_50MHZ'
+Slack : -1.757
+TNS   : -12.594
+
+Type  : Slow 1200mV 85C Model Setup 'DIV_FREQUENCE:u1|sig_1us'
+Slack : -1.683
+TNS   : -18.285
+
+Type  : Slow 1200mV 85C Model Setup 'COUNTER6:u3|jin_wei'
+Slack : -1.626
+TNS   : -9.397
+
+Type  : Slow 1200mV 85C Model Setup 'DIV_FREQUENCE:u1|sig_10ms'
+Slack : -1.574
+TNS   : -12.189
+
+Type  : Slow 1200mV 85C Model Setup 'DIV_FREQUENCE:u1|sig_1ms'
+Slack : -0.485
+TNS   : -2.088
+
+Type  : Slow 1200mV 85C Model Setup 'DIV_FREQUENCE:u1|clk_second'
+Slack : -0.470
+TNS   : -2.177
+
+Type  : Slow 1200mV 85C Model Setup 'counter[10]'
+Slack : -0.404
+TNS   : -0.404
+
+Type  : Slow 1200mV 85C Model Setup 'COUNTER_10:u2|jin_wei'
+Slack : -0.378
+TNS   : -1.410
+
+Type  : Slow 1200mV 85C Model Hold 'COUNTER_MID[2]'
+Slack : -0.768
+TNS   : -0.776
+
+Type  : Slow 1200mV 85C Model Hold 'counter[10]'
+Slack : -0.022
+TNS   : -0.022
+
+Type  : Slow 1200mV 85C Model Hold 'DIV_FREQUENCE:u1|clk_ms'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_50MHZ'
+Slack : 0.428
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DIV_FREQUENCE:u1|sig_1ms'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'COUNTER6:u3|jin_wei'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'COUNTER_10:u2|jin_wei'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DIV_FREQUENCE:u1|clk_second'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DIV_FREQUENCE:u1|sig_10ms'
+Slack : 0.493
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'KEY_DELAY:u5|KEY_OUT'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DIV_FREQUENCE:u1|sig_1us'
+Slack : 0.744
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DIV_FREQUENCE:u1|clk_ms'
+Slack : -0.476
+TNS   : -5.501
+
+Type  : Slow 1200mV 85C Model Removal 'DIV_FREQUENCE:u1|clk_ms'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50MHZ'
+Slack : -3.000
+TNS   : -17.870
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|clk_ms'
+Slack : -1.487
+TNS   : -41.636
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|sig_1us'
+Slack : -1.487
+TNS   : -16.357
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'COUNTER6:u3|jin_wei'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|sig_10ms'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|clk_second'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|sig_1ms'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'COUNTER_10:u2|jin_wei'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY_DELAY:u5|KEY_OUT'
+Slack : -1.487
+TNS   : -2.974
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'COUNTER_MID[2]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'counter[10]'
+Slack : 0.459
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'COUNTER_MID[2]'
+Slack : -3.794
+TNS   : -12.841
+
+Type  : Slow 1200mV 0C Model Setup 'DIV_FREQUENCE:u1|clk_ms'
+Slack : -3.707
+TNS   : -51.393
+
+Type  : Slow 1200mV 0C Model Setup 'KEY_DELAY:u5|KEY_OUT'
+Slack : -3.506
+TNS   : -43.051
+
+Type  : Slow 1200mV 0C Model Setup 'clk_50MHZ'
+Slack : -1.577
+TNS   : -11.091
+
+Type  : Slow 1200mV 0C Model Setup 'DIV_FREQUENCE:u1|sig_1us'
+Slack : -1.461
+TNS   : -15.841
+
+Type  : Slow 1200mV 0C Model Setup 'COUNTER6:u3|jin_wei'
+Slack : -1.395
+TNS   : -8.047
+
+Type  : Slow 1200mV 0C Model Setup 'DIV_FREQUENCE:u1|sig_10ms'
+Slack : -1.362
+TNS   : -10.502
+
+Type  : Slow 1200mV 0C Model Setup 'DIV_FREQUENCE:u1|sig_1ms'
+Slack : -0.394
+TNS   : -1.488
+
+Type  : Slow 1200mV 0C Model Setup 'DIV_FREQUENCE:u1|clk_second'
+Slack : -0.317
+TNS   : -1.452
+
+Type  : Slow 1200mV 0C Model Setup 'counter[10]'
+Slack : -0.247
+TNS   : -0.247
+
+Type  : Slow 1200mV 0C Model Setup 'COUNTER_10:u2|jin_wei'
+Slack : -0.245
+TNS   : -0.879
+
+Type  : Slow 1200mV 0C Model Hold 'COUNTER_MID[2]'
+Slack : -0.775
+TNS   : -0.823
+
+Type  : Slow 1200mV 0C Model Hold 'counter[10]'
+Slack : -0.003
+TNS   : -0.003
+
+Type  : Slow 1200mV 0C Model Hold 'DIV_FREQUENCE:u1|clk_ms'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_50MHZ'
+Slack : 0.352
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'COUNTER6:u3|jin_wei'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'COUNTER_10:u2|jin_wei'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DIV_FREQUENCE:u1|clk_second'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DIV_FREQUENCE:u1|sig_1ms'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'KEY_DELAY:u5|KEY_OUT'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DIV_FREQUENCE:u1|sig_10ms'
+Slack : 0.458
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DIV_FREQUENCE:u1|sig_1us'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DIV_FREQUENCE:u1|clk_ms'
+Slack : -0.286
+TNS   : -2.923
+
+Type  : Slow 1200mV 0C Model Removal 'DIV_FREQUENCE:u1|clk_ms'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50MHZ'
+Slack : -3.000
+TNS   : -17.870
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|clk_ms'
+Slack : -1.487
+TNS   : -41.636
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|sig_1us'
+Slack : -1.487
+TNS   : -16.357
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'COUNTER6:u3|jin_wei'
+Slack : -1.487
+TNS   : -12.928
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|sig_10ms'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|clk_second'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|sig_1ms'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'COUNTER_10:u2|jin_wei'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY_DELAY:u5|KEY_OUT'
+Slack : -1.487
+TNS   : -2.974
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'COUNTER_MID[2]'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'counter[10]'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DIV_FREQUENCE:u1|clk_ms'
+Slack : -1.810
+TNS   : -14.356
+
+Type  : Fast 1200mV 0C Model Setup 'COUNTER_MID[2]'
+Slack : -1.683
+TNS   : -5.156
+
+Type  : Fast 1200mV 0C Model Setup 'KEY_DELAY:u5|KEY_OUT'
+Slack : -1.224
+TNS   : -14.057
+
+Type  : Fast 1200mV 0C Model Setup 'clk_50MHZ'
+Slack : -0.148
+TNS   : -0.968
+
+Type  : Fast 1200mV 0C Model Setup 'COUNTER6:u3|jin_wei'
+Slack : -0.127
+TNS   : -0.498
+
+Type  : Fast 1200mV 0C Model Setup 'DIV_FREQUENCE:u1|sig_1us'
+Slack : -0.123
+TNS   : -1.288
+
+Type  : Fast 1200mV 0C Model Setup 'DIV_FREQUENCE:u1|sig_10ms'
+Slack : -0.078
+TNS   : -0.546
+
+Type  : Fast 1200mV 0C Model Setup 'counter[10]'
+Slack : -0.018
+TNS   : -0.018
+
+Type  : Fast 1200mV 0C Model Setup 'DIV_FREQUENCE:u1|sig_1ms'
+Slack : 0.349
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DIV_FREQUENCE:u1|clk_second'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'COUNTER_10:u2|jin_wei'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'COUNTER_MID[2]'
+Slack : -0.257
+TNS   : -0.257
+
+Type  : Fast 1200mV 0C Model Hold 'counter[10]'
+Slack : -0.008
+TNS   : -0.008
+
+Type  : Fast 1200mV 0C Model Hold 'clk_50MHZ'
+Slack : 0.028
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DIV_FREQUENCE:u1|clk_ms'
+Slack : 0.034
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'COUNTER6:u3|jin_wei'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DIV_FREQUENCE:u1|clk_second'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'COUNTER_10:u2|jin_wei'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DIV_FREQUENCE:u1|sig_1ms'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DIV_FREQUENCE:u1|sig_10ms'
+Slack : 0.198
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'KEY_DELAY:u5|KEY_OUT'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DIV_FREQUENCE:u1|sig_1us'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DIV_FREQUENCE:u1|clk_ms'
+Slack : -0.200
+TNS   : -2.193
+
+Type  : Fast 1200mV 0C Model Removal 'DIV_FREQUENCE:u1|clk_ms'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50MHZ'
+Slack : -3.000
+TNS   : -13.647
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|clk_ms'
+Slack : -1.000
+TNS   : -28.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|sig_1us'
+Slack : -1.000
+TNS   : -11.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'COUNTER6:u3|jin_wei'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|sig_10ms'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|clk_second'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DIV_FREQUENCE:u1|sig_1ms'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'COUNTER_10:u2|jin_wei'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY_DELAY:u5|KEY_OUT'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'COUNTER_MID[2]'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'counter[10]'
+Slack : 0.456
+TNS   : 0.000
+
+------------------------------------------------------------

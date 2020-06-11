@@ -1,0 +1,73 @@
+# Reading D:/quartusII/modelsim_ase/tcl/vsim/pref.tcl
+# do test4_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/quartusII/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/quartusII/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Administrator/Desktop/eda/test4/test4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:05:24 on Dec 17,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/Administrator/Desktop/eda/test4/test4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test4
+# -- Compiling architecture one of test4
+# End time: 10:05:25 on Dec 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 10:05:25 on Dec 17,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test4_vhd_tst
+# -- Compiling architecture test4_arch of test4_vhd_tst
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test4/simulation/modelsim/test4.vht(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 10:05:25 on Dec 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 16
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  test4_vhd_tst
+# vsim -gui "+altera" -l msim_transcript -do "test4_run_msim_rtl_vhdl.do" 
+# Start time: 10:05:25 on Dec 17,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test4_vhd_tst(test4_arch)
+# Loading work.test4(one)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Break in Process line__9 at C:/Users/Administrator/Desktop/eda/test4/test4.vhd line 14
+# End time: 10:06:27 on Dec 17,2019, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 0

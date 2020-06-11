@@ -1,0 +1,428 @@
+Analysis & Synthesis report for clockTopLever
+Thu Dec 19 16:37:58 2019
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. User-Specified and Inferred Latches
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Port Connectivity Checks: "COUNTER60:u4"
+ 13. Port Connectivity Checks: "DIV_FREQUENCE:u1"
+ 14. Post-Synthesis Netlist Statistics for Top Partition
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Dec 19 16:37:58 2019       ;
+; Quartus II 64-Bit Version          ; 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Revision Name                      ; clockTopLever                               ;
+; Top-level Entity Name              ; clockTopLever                               ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 161                                         ;
+;     Total combinational functions  ; 158                                         ;
+;     Dedicated logic registers      ; 72                                          ;
+; Total registers                    ; 72                                          ;
+; Total pins                         ; 16                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CE6E22C8        ;                    ;
+; Top-level entity name                                                      ; clockTopLever      ; clockTopLever      ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                      ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                               ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------+---------+
+; clockTopLever.vhd                ; yes             ; User VHDL File  ; C:/Users/Administrator/Desktop/eda/Code_Resource/test6,7,8/clockTopLever/clockTopLever.vhd ;         ;
+; DECODER.vhd                      ; yes             ; User VHDL File  ; C:/Users/Administrator/Desktop/eda/Code_Resource/test6,7,8/clockTopLever/DECODER.vhd       ;         ;
+; COUNTER_10.vhd                   ; yes             ; User VHDL File  ; C:/Users/Administrator/Desktop/eda/Code_Resource/test6,7,8/clockTopLever/COUNTER_10.vhd    ;         ;
+; DIV_FREQUENCE.vhd                ; yes             ; User VHDL File  ; C:/Users/Administrator/Desktop/eda/Code_Resource/test6,7,8/clockTopLever/DIV_FREQUENCE.vhd ;         ;
+; COUNTER6.vhd                     ; yes             ; User VHDL File  ; C:/Users/Administrator/Desktop/eda/Code_Resource/test6,7,8/clockTopLever/COUNTER6.vhd      ;         ;
+; KEY_DELAY.vhd                    ; yes             ; User VHDL File  ; C:/Users/Administrator/Desktop/eda/Code_Resource/test6,7,8/clockTopLever/KEY_DELAY.vhd     ;         ;
+; COUNTER60.vhd                    ; yes             ; User VHDL File  ; C:/Users/Administrator/Desktop/eda/Code_Resource/test6,7,8/clockTopLever/COUNTER60.vhd     ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 161       ;
+;                                             ;           ;
+; Total combinational functions               ; 158       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 77        ;
+;     -- 3 input functions                    ; 33        ;
+;     -- <=2 input functions                  ; 48        ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 132       ;
+;     -- arithmetic mode                      ; 26        ;
+;                                             ;           ;
+; Total registers                             ; 72        ;
+;     -- Dedicated logic registers            ; 72        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 16        ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; MEMORY[0] ;
+; Maximum fan-out                             ; 19        ;
+; Total fan-out                               ; 713       ;
+; Average fan-out                             ; 2.72      ;
++---------------------------------------------+-----------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                     ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name             ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------+--------------+
+; |clockTopLever             ; 158 (53)          ; 72 (11)      ; 0           ; 0            ; 0       ; 0         ; 16   ; 0            ; |clockTopLever                  ; work         ;
+;    |COUNTER60:u4|          ; 13 (13)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |clockTopLever|COUNTER60:u4     ; work         ;
+;    |COUNTER6:u3|           ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |clockTopLever|COUNTER6:u3      ; work         ;
+;    |COUNTER_10:u2|         ; 5 (5)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |clockTopLever|COUNTER_10:u2    ; work         ;
+;    |DECODER:u10|           ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |clockTopLever|DECODER:u10      ; work         ;
+;    |DECODER:u7|            ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |clockTopLever|DECODER:u7       ; work         ;
+;    |DECODER:u8|            ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |clockTopLever|DECODER:u8       ; work         ;
+;    |DECODER:u9|            ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |clockTopLever|DECODER:u9       ; work         ;
+;    |DIV_FREQUENCE:u1|      ; 35 (35)           ; 34 (34)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |clockTopLever|DIV_FREQUENCE:u1 ; work         ;
+;    |KEY_DELAY:u5|          ; 10 (10)           ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |clockTopLever|KEY_DELAY:u5     ; work         ;
+;    |KEY_DELAY:u6|          ; 10 (10)           ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |clockTopLever|KEY_DELAY:u6     ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                               ;
++----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
++----------------------------------------------------+---------------------+------------------------+
+; E_pin1$latch                                       ; E_pin1              ; yes                    ;
+; E_pin2$latch                                       ; E_pin2              ; yes                    ;
+; E_pin3$latch                                       ; E_pin3              ; yes                    ;
+; E_pin4$latch                                       ; E_pin4              ; yes                    ;
+; Number of user-specified and inferred latches = 4  ;                     ;                        ;
++----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; COUNTER_MID[0]                        ; Merged with MEMORY[0]                  ;
+; COUNTER6:u3|COUNTER_SHI[3]            ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 2 ;                                        ;
++---------------------------------------+----------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 72    ;
+; Number of registers using Synchronous Clear  ; 23    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 15    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 6     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |clockTopLever|COUNTER60:u4|COUNT_GE[3]  ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |clockTopLever|COUNTER60:u4|COUNT_SHI[2] ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |clockTopLever|E_pin2                    ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |clockTopLever|E_pin3                    ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |clockTopLever|Data_DSP                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "COUNTER60:u4"                                                                       ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; co   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "DIV_FREQUENCE:u1"                                                                       ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; clk_10ms ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 16                          ;
+; cycloneiii_ff         ; 72                          ;
+;     CLR               ; 11                          ;
+;     ENA               ; 2                           ;
+;     ENA CLR           ; 4                           ;
+;     SCLR              ; 23                          ;
+;     plain             ; 32                          ;
+; cycloneiii_lcell_comb ; 159                         ;
+;     arith             ; 26                          ;
+;         2 data inputs ; 25                          ;
+;         3 data inputs ; 1                           ;
+;     normal            ; 133                         ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 5                           ;
+;         2 data inputs ; 18                          ;
+;         3 data inputs ; 32                          ;
+;         4 data inputs ; 77                          ;
+;                       ;                             ;
+; Max LUT depth         ; 5.00                        ;
+; Average LUT depth     ; 2.31                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+    Info: Processing started: Thu Dec 19 16:37:42 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off clockTopLever -c clockTopLever
+Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Info (12021): Found 2 design units, including 1 entities, in source file clocktoplever.vhd
+    Info (12022): Found design unit 1: clockTopLever-BHV
+    Info (12023): Found entity 1: clockTopLever
+Info (12021): Found 2 design units, including 1 entities, in source file decoder.vhd
+    Info (12022): Found design unit 1: DECODER-BHV
+    Info (12023): Found entity 1: DECODER
+Info (12021): Found 2 design units, including 1 entities, in source file counter_10.vhd
+    Info (12022): Found design unit 1: COUNTER_10-BHV
+    Info (12023): Found entity 1: COUNTER_10
+Info (12021): Found 2 design units, including 1 entities, in source file div_frequence.vhd
+    Info (12022): Found design unit 1: DIV_FREQUENCE-BHV
+    Info (12023): Found entity 1: DIV_FREQUENCE
+Info (12021): Found 2 design units, including 1 entities, in source file counter6.vhd
+    Info (12022): Found design unit 1: COUNTER6-BHV
+    Info (12023): Found entity 1: COUNTER6
+Info (12021): Found 2 design units, including 1 entities, in source file counter3.vhd
+    Info (12022): Found design unit 1: COUNTER3-BHV
+    Info (12023): Found entity 1: COUNTER3
+Info (12021): Found 2 design units, including 1 entities, in source file key_delay.vhd
+    Info (12022): Found design unit 1: KEY_DELAY-BHV
+    Info (12023): Found entity 1: KEY_DELAY
+Info (12021): Found 2 design units, including 1 entities, in source file counter60.vhd
+    Info (12022): Found design unit 1: COUNTER60-BHV
+    Info (12023): Found entity 1: COUNTER60
+Info (12127): Elaborating entity "clockTopLever" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at clockTopLever.vhd(53): object "clk_10ms" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at clockTopLever.vhd(57): object "SEL_2" assigned a value but never read
+Warning (10492): VHDL Process Statement warning at clockTopLever.vhd(119): signal "SWITCH_SET1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at clockTopLever.vhd(120): signal "SEL_1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at clockTopLever.vhd(133): signal "SWITCH_SET1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at clockTopLever.vhd(134): signal "SEL_1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at clockTopLever.vhd(117): inferring latch(es) for signal or variable "E_pin1", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at clockTopLever.vhd(117): inferring latch(es) for signal or variable "E_pin2", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at clockTopLever.vhd(117): inferring latch(es) for signal or variable "E_pin3", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at clockTopLever.vhd(117): inferring latch(es) for signal or variable "E_pin4", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "E_pin4" at clockTopLever.vhd(117)
+Info (10041): Inferred latch for "E_pin3" at clockTopLever.vhd(117)
+Info (10041): Inferred latch for "E_pin2" at clockTopLever.vhd(117)
+Info (10041): Inferred latch for "E_pin1" at clockTopLever.vhd(117)
+Info (12128): Elaborating entity "DIV_FREQUENCE" for hierarchy "DIV_FREQUENCE:u1"
+Info (12128): Elaborating entity "COUNTER_10" for hierarchy "COUNTER_10:u2"
+Info (12128): Elaborating entity "COUNTER6" for hierarchy "COUNTER6:u3"
+Warning (10492): VHDL Process Statement warning at COUNTER6.vhd(17): signal "reset" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (12128): Elaborating entity "COUNTER60" for hierarchy "COUNTER60:u4"
+Info (12128): Elaborating entity "KEY_DELAY" for hierarchy "KEY_DELAY:u5"
+Info (12128): Elaborating entity "DECODER" for hierarchy "DECODER:u7"
+Warning (19016): Clock multiplexers are found and protected
+    Warning (19017): Found clock multiplexer Mux1
+    Warning (19017): Found clock multiplexer Mux0
+Warning (13012): Latch E_pin1$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MEMORY[0]
+Warning (13012): Latch E_pin2$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MEMORY[0]
+Warning (13012): Latch E_pin3$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MEMORY[0]
+Warning (13012): Latch E_pin4$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MEMORY[0]
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "Data_DSP[7]" is stuck at VCC
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 181 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 4 input pins
+    Info (21059): Implemented 12 output pins
+    Info (21061): Implemented 165 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 24 warnings
+    Info: Peak virtual memory: 4851 megabytes
+    Info: Processing ended: Thu Dec 19 16:37:58 2019
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:29
+
+

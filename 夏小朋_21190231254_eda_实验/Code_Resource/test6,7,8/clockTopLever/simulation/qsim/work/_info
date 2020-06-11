@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/clockTopLever/simulation/qsim
+vclockTopLever
+Z1 !s110 1576553520
+!i10b 1
+!s100 CBB`cL8iaHmakiiIVW@`H1
+IPRB?k6iWB`e[6DH5koQa@3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1576553519
+8clockTopLever.vo
+FclockTopLever.vo
+L0 32
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1576553520.576000
+!s107 clockTopLever.vo|
+!s90 -work|work|clockTopLever.vo|
+!i113 1
+Z4 o-work work
+nclock@top@lever
+vclockTopLever_vlg_check_tst
+R1
+!i10b 1
+!s100 KUW03ji_S45]zC6G65]=_3
+Ib[kJ9He<ZXH68Fb>ARM<k0
+R2
+R0
+Z5 w1576553516
+Z6 8Waveform.vwf.vt
+Z7 FWaveform.vwf.vt
+L0 64
+R3
+r1
+!s85 0
+31
+Z8 !s108 1576553520.797000
+Z9 !s107 Waveform.vwf.vt|
+Z10 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+nclock@top@lever_vlg_check_tst
+vclockTopLever_vlg_sample_tst
+R1
+!i10b 1
+!s100 ^7ieJGz;hE>^_[k`SJ0eV3
+I2SOX9fY3nKf:QmkU]A<Fd1
+R2
+R0
+R5
+R6
+R7
+L0 30
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+nclock@top@lever_vlg_sample_tst
+vclockTopLever_vlg_vec_tst
+R1
+!i10b 1
+!s100 aQk:lWSEZS5]H8da__k633
+I[j1k2PchFS4PL`HPUNcjY1
+R2
+R0
+R5
+R6
+R7
+L0 392
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+nclock@top@lever_vlg_vec_tst

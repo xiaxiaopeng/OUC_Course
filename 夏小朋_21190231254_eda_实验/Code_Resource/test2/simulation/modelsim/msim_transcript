@@ -1,0 +1,79 @@
+# Reading D:/quartusII/modelsim_ase/tcl/vsim/pref.tcl
+# do test2_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/quartusII/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/quartusII/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Administrator/Desktop/eda/test2/test2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Dec 17,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/Administrator/Desktop/eda/test2/test2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test2
+# -- Compiling architecture one of test2
+# End time: 09:28:36 on Dec 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Dec 17,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test2_vhd_tst
+# -- Compiling architecture test2_arch of test2_vhd_tst
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrator/Desktop/eda/test2/simulation/modelsim/test2.vht(117): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 09:28:36 on Dec 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 22
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  test2_vhd_tst
+# vsim -gui "+altera" -l msim_transcript -do "test2_run_msim_rtl_vhdl.do" 
+# Start time: 09:28:36 on Dec 17,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test2_vhd_tst(test2_arch)
+# Loading work.test2(one)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 09:30:24 on Dec 17,2019, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 0

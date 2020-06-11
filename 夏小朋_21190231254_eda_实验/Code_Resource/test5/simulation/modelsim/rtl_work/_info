@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/eda/test5/simulation/modelsim
+Etest5
+Z1 w1576206535
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/Administrator/Desktop/eda/test5/test5.vhd
+Z7 FC:/Users/Administrator/Desktop/eda/test5/test5.vhd
+l0
+L5
+VflicAelD]`IK6EA<A:dA62
+!s100 c;8FY`eHM4NRc9KcfbWO53
+Z8 OV;C;10.3d;59
+31
+Z9 !s110 1576549386
+!i10b 1
+Z10 !s108 1576549386.436000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrator/Desktop/eda/test5/test5.vhd|
+Z12 !s107 C:/Users/Administrator/Desktop/eda/test5/test5.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1
+Abhv
+R2
+R3
+R4
+R5
+DEx4 work 5 test5 0 22 flicAelD]`IK6EA<A:dA62
+l13
+L9
+VU^Qd8dU1`?<@g3=XO0fc_2
+!s100 YH9ENWc]b=5Ld96SKC_4B2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Etest5_vhd_tst
+Z15 w1576549233
+R4
+R5
+R0
+Z16 8C:/Users/Administrator/Desktop/eda/test5/simulation/modelsim/test5.vht
+Z17 FC:/Users/Administrator/Desktop/eda/test5/simulation/modelsim/test5.vht
+l0
+L31
+VE]B_Je`2Jn5e8^i3S:S1U0
+!s100 <Y_@c@e1nZ`klaTG>1NG91
+R8
+31
+Z18 !s110 1576549387
+!i10b 1
+Z19 !s108 1576549387.436000
+Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrator/Desktop/eda/test5/simulation/modelsim/test5.vht|
+Z21 !s107 C:/Users/Administrator/Desktop/eda/test5/simulation/modelsim/test5.vht|
+!i113 1
+R13
+R14
+Atest5_arch
+R4
+R5
+DEx4 work 13 test5_vhd_tst 0 22 E]B_Je`2Jn5e8^i3S:S1U0
+l46
+L33
+V?_cT47zP[cVfW0OYk^4KB2
+!s100 PN;7zTe5U>jTJCQ`>BbKJ0
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14

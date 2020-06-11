@@ -1,0 +1,112 @@
+LIBRARY ieee;                                               
+USE ieee.std_logic_1164.all;                                
+
+ENTITY test4_vhd_tst IS
+END test4_vhd_tst;
+ARCHITECTURE test4_arch OF test4_vhd_tst IS
+-- constants                                                 
+-- signals                                                   
+SIGNAL A1 : STD_LOGIC;
+SIGNAL A2 : STD_LOGIC;
+SIGNAL D0 : STD_LOGIC;
+SIGNAL D1 : STD_LOGIC;
+SIGNAL D2 : STD_LOGIC;
+SIGNAL D3 : STD_LOGIC;
+SIGNAL Q1 : STD_LOGIC;
+SIGNAL Q2 : STD_LOGIC;
+SIGNAL s1 : STD_LOGIC;
+SIGNAL s2 : STD_LOGIC;
+COMPONENT test4
+	PORT (
+	A1 : IN STD_LOGIC;
+	A2 : IN STD_LOGIC;
+	D0 : IN STD_LOGIC;
+	D1 : IN STD_LOGIC;
+	D2 : IN STD_LOGIC;
+	D3 : IN STD_LOGIC;
+	Q1 : BUFFER STD_LOGIC;
+	Q2 : BUFFER STD_LOGIC;
+	s1 : IN STD_LOGIC;
+	s2 : IN STD_LOGIC
+	);
+END COMPONENT;
+BEGIN
+	i1 : test4
+	PORT MAP (
+-- list connections between master ports and signals
+	A1 => A1,
+	A2 => A2,
+	D0 => D0,
+	D1 => D1,
+	D2 => D2,
+	D3 => D3,
+	Q1 => Q1,
+	Q2 => Q2,
+	s1 => s1,
+	s2 => s2
+	);
+s2_en:process
+begin
+s2<='0';
+wait for 10ns;
+s2<='1';
+wait for 10ns;
+end process s2_en;
+
+s1_en:process
+begin
+s1<='0';
+wait for 20ns;
+s1<='1';
+wait for 20ns;
+end process s1_en;
+
+A1_en:process
+begin
+A1<='0';
+wait for 10ns;
+A1<='1';
+wait for 10ns;
+end process A1_en;
+
+A2_en:process
+begin
+A2<='0';
+wait for 20ns;
+A2<='1';
+wait for 20ns;
+end process A2_en;
+
+D0_en:process
+begin
+D0<='0';
+wait for 10ns;
+D0<='1';
+wait for 10ns;
+end process D0_en;
+
+D1_en:process
+begin
+D1<='0';
+wait for 20ns;
+D1<='1';
+wait for 20ns;
+end process  D1_en;
+
+D2_en:process
+begin
+D2<='0';
+wait for 10ns;
+D2<='1';
+wait for 10ns;
+end process D2_en;
+
+D3_en:process
+begin
+D3<='0';
+wait for 20ns;
+D3<='1';
+wait for 20ns;
+end process D3_en;
+                       
+END test4_arch;
